@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Inheritance
 {
@@ -10,7 +11,8 @@ namespace Inheritance
 
             // Create a class Animal
             // give this class 4 members that all Animals have in common
-
+            
+            
 
             // Create a class Bird
             // give this class 4 members that are specific to Bird
@@ -28,6 +30,14 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            var myBird = new Bird();
+
+            myBird.canFly = true;
+            myBird.color = "blue";
+            myBird.sizeInCM = 25;
+            myBird.name = "BlueJay";
+            myBird.lengthOfFeathersInCM = 12.2;
+            myBird.hasBeak = true;
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
