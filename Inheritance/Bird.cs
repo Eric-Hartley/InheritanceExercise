@@ -14,6 +14,6 @@ namespace Inheritance
         public bool canFly {  get; set; }
         public bool hasBeak {  get; set; }
         public string color { get; set; }
-        public string lengthOfFeathers { get; set; }
+        public double lengthOfFeathersInCM { get; set; }
     }
 }
